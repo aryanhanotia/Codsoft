@@ -1,0 +1,68 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: gray;
+}
+
+#calcBdy {
+	background: #222;
+	border-radius: 10px;
+	box-shadow: 2px 2px 2px #444;
+	justify-content: center;
+	height: 600px;
+	min-height: 400px;
+	margin: 30px auto;
+	padding: 25px 0;
+	width: 60%;
+	min-width: 330px;
+}
+#screen {
+	background: lightblue;
+	border: 2px solid gray;
+	box-sizing: border-box;
+	border-radius: 5px;
+	font-family: 'Press Start 2P', cursive;
+	font-size: 1.8em;
+	height: 15%;
+	margin: 2% auto;
+	overflow-x: hidden;
+	padding: 5px;
+	width: 80%;
+}
+#keyPad {
+	align-items: center;
+	display: flex;
+	flex-wrap: wrap;
+	height: 70%;
+	justify-content: space-between;
+	margin: 0 auto;
+	width: 80%;
+	/*position: fixed;*/
+}
+button {
+	background: #fff;
+	border-radius: 5px;
+	font-size: 2em;
+	font-weight: bold;
+	height: 15%;
+	text-align: center;
+	flex-basis: 20%;
+}
+.mddl {
+	margin-left: 2%;
+}
+#eql {
+	background: orange;
+}
+
+.clr-container {
+	margin: 1% auto;
+	width: 80%;
+}
+
+#clr {
+	float: right;
+	width: 47%;
+}
